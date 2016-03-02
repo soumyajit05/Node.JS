@@ -11,7 +11,7 @@ mongoose.connect('mongodb://localhost/bookstore');
 var db = mongoose.connection;
 
 app.get('/',function(req, res){
-    res.send('please use /api/books or /api/genres');
+    res.send('please Use /api/books or /api/genres');
 });
 
 app.get('/api/genres',function(req,res){
