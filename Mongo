@@ -1,0 +1,19 @@
+Mongo DB
+
+db.books.find().pretty()
+{
+        "_id" : ObjectId("56d3995c7c3c816a47f71ead"),
+        "title" : "Murder House",
+        "genre" : "Suspense",
+        "Author" : "jit"
+}
+{
+        "_id" : ObjectId("56d3996e7c3c816a47f71eae"),
+        "title" : "Big Bang",
+        "genre" : "Suspense",
+        "Author" : "BB"
+}
+> db.genres.find().pretty()
+{ "_id" : ObjectId("56d398e87c3c816a47f71eab"), "name" : "Suspense" }
+{ "_id" : ObjectId("56d399087c3c816a47f71eac"), "name" : "Thriller" }
+>
